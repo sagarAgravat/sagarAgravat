@@ -1,0 +1,20 @@
+.main-div {
+    height: 100vh;
+}
+
+.single-element {
+    height: 90px;
+    cursor: pointer;
+
+}
+
+.droptarget {
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.h-90 {
+    height: 90% !important;
+}
