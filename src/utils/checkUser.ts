@@ -9,7 +9,6 @@ export const getUserName = (email: string) => {
 }
 
 export const validateUser = (email: string, currentUser: string): boolean => {
-    console.log('🔥 ~ validateUser ~ email', email)
     if (email && currentUser === getUserName(email)) {
         return true
     } else return false
